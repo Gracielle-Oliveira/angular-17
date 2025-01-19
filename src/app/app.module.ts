@@ -7,16 +7,25 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { HomeComponent } from './page/home/home.component';
 import { AppRountingModule } from './app-routing.module';
 import { FooterComponent } from './shared/footer/footer.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './page/login/login.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
     AppComponent,
+    
+
   ],
   imports: [
     BrowserModule,
     HomeComponent,
     AppRountingModule,
-    FooterComponent
+    FooterComponent,
+    FormsModule,
+    ReactiveFormsModule,
+    MatProgressSpinnerModule
+
   ],
   providers: [
     provideAnimationsAsync()

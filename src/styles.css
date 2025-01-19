@@ -13,3 +13,7 @@
 .c-gray{ color: var(--gray-color);}
 
 .hover:hover{ cursor: pointer;}
+
+*{
+    margin: 0;
+}
